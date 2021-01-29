@@ -252,7 +252,7 @@ button:focus {
   letter-spacing: 0.06em;
 }
 
-.section__header {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -268,7 +268,7 @@ button:focus {
   display: flex;
 }
 
-.section__subheader {
+.section__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
 
