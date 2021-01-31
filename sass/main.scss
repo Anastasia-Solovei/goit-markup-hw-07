@@ -15,7 +15,7 @@
 @import './components/socials';
 @import './components/clients';
 @import './components/backdrop';
-@import "./components/projects";
+@import './components/projects';
 @import './components/page-footer';
 
 /*------------Стили основного контента------------*/
@@ -183,8 +183,6 @@
   color: $accent-color;
   text-decoration-skip-ink: none;
 }
-
-
 
 .checkbox__icon {
   position: absolute;
