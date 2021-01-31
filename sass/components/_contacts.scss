@@ -1,0 +1,67 @@
+/* Контакты */
+.contact-list {
+  display: flex;
+
+  &--left {
+    margin-left: auto;
+  }
+
+  &--footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item:nth-child(2) {
+    margin-left: 50px;
+  }
+  &__item--footer {
+    margin-bottom: 9px;
+  }
+
+  &__item--footer:nth-child(2) {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $primary-text-color;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    transition: color $primary-duration$timing-function;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $accent-color;
+  }
+
+  &__link--footer {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: inherit;
+    line-height: 1.71;
+    letter-spacing: inherit;
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+
+  &__icon--start {
+    margin-right: 10px;
+  }
+}

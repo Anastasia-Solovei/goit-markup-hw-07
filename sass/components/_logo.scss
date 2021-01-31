@@ -1,0 +1,20 @@
+.logo {
+  color: $accent-color;
+
+  font-family: $logo-font-family;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  &__text {
+    color: $black-color;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  &__text--inverse {
+    color: $white-color;
+  }
+}

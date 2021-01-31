@@ -1,0 +1,38 @@
+/* Особенности */
+.feature {
+  padding: 94px 0;
+
+  &__item {
+    display: inline-flex;
+    flex-direction: column;
+
+    width: 270px;
+  }
+
+  &__item:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 120px;
+
+    background-color: $secondary-bcg-color;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+
+  &__icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+}

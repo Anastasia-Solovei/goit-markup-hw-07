@@ -1,0 +1,45 @@
+.section {
+  &--team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $secondary-bcg-color;
+  }
+
+  &--client {
+    padding: 94px 0;
+  }
+
+  &--page-footer {
+    padding: 60px 0;
+  }
+
+  &__header {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: $title-text-color;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__subheader {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: $title-text-color;
+
+    font-weight: 700;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
