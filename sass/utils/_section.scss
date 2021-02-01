@@ -1,3 +1,4 @@
+/* Секция */
 .section {
   &--team {
     padding-top: 94px;
@@ -16,9 +17,7 @@
   &__header {
     margin-top: 0;
     margin-bottom: 50px;
-
     color: $title-text-color;
-
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -32,9 +31,7 @@
   &__subheader {
     margin-top: 0;
     margin-bottom: 10px;
-
     color: $title-text-color;
-
     font-weight: 700;
   }
 
