@@ -1,3 +1,4 @@
+/* Логотип */
 .logo {
   color: $accent-color;
 
@@ -6,15 +7,14 @@
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
 
-  &__text {
-    color: $black-color;
+.logo__text {
+  color: $black-color;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-
-  &__text--inverse {
+  &--inverse {
     color: $white-color;
   }
 }
