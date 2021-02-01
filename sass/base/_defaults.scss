@@ -1,7 +1,6 @@
 body {
   background-color: $primary-bcg-color;
   color: $primary-text-color;
-
   font-family: $main-font-family;
   font-size: 14px;
   line-height: 1.71;
@@ -18,26 +17,16 @@ img {
   height: auto;
 }
 
-a:active,
-a:focus {
-  outline: none;
+a {
+  &:active,
+  &:focus {
+    outline: none;
+  }
 }
 
-button:active,
-button:focus {
-  outline: none;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+button {
+  &:active,
+  &:focus {
+    outline: none;
+  }
 }
