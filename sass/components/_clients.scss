@@ -1,13 +1,11 @@
 /* Клиенты */
-.client {
-  &__list {
-    display: flex;
-    justify-content: space-between;
-  }
+.client__list {
+  display: flex;
+  justify-content: space-between;
+}
 
-  &__icon {
-    fill: currentColor;
-  }
+.client__icon {
+  fill: currentColor;
 }
 
 .client__link {

@@ -25,8 +25,10 @@
     background-image: url(../images/check-off.svg);
     border-radius: 2px;
   }
+}
 
-  &__input:checked + .checkbox__icon {
+.checkbox__input {
+  &:checked + .checkbox__icon {
     background-color: $accent-color;
     background-image: url(../images/check-on.svg);
   }

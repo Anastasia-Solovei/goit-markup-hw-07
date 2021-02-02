@@ -1,20 +1,18 @@
 /* Иконки соц сетей */
-.social {
-  &__content {
-    display: inline-flex;
-    flex-direction: column;
-    width: 206px;
-    height: 80px;
-    margin-left: 70px;
-  }
+.social__content {
+  display: inline-flex;
+  flex-direction: column;
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
 
-  &__label {
-    margin-bottom: 20px;
-    color: $white-color;
-    font-weight: bold;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
+.social__label {
+  margin-bottom: 20px;
+  color: $white-color;
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .social__list {

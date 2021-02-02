@@ -30,10 +30,6 @@
     color: $accent-color;
   }
 
-  &--current {
-    color: $accent-color;
-  }
-
   &::after {
     content: '';
     position: absolute;
@@ -48,9 +44,16 @@
     transition: transform $primary-duration$timing-function;
   }
 
-  &--current::after,
   &:focus::after,
   &:hover::after {
+    transform: scaleX(1);
+  }
+}
+
+.site-nav__link--current {
+  color: $accent-color;
+
+  &::after {
     transform: scaleX(1);
   }
 }
