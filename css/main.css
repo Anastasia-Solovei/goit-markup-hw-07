@@ -815,7 +815,7 @@ button:active, button:focus {
 .social__label {
   margin-bottom: 20px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -967,7 +967,7 @@ button:active, button:focus {
 .newsletter-form__label {
   margin-bottom: 20px;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
