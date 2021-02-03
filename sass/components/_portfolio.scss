@@ -39,7 +39,7 @@
 .card-set__link {
   display: block;
   text-decoration: none;
-  transition: box-shadow $primary-duration$timing-function;
+  transition: box-shadow $primary-duration $timing-function;
 
   &:hover,
   &:focus {
