@@ -16,15 +16,15 @@
   }
 
   &-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    font-weight: $secondary-font-weight;
+    font-size: $team-section-font-size;
+    line-height: $secondary-line-height;
     text-align: center;
   }
 
   &-spec {
-    font-size: 16px;
-    line-height: 1.19;
+    font-size: $team-section-font-size;
+    line-height: $secondary-line-height;
     text-align: center;
     margin-bottom: 16px;
   }

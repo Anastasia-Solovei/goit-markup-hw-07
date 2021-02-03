@@ -24,8 +24,8 @@
 
   &__text {
     color: $white-color;
-    font-weight: 700;
-    line-height: 1.14;
+    font-weight: $primary-font-weight;
+    line-height: $primary-line-height;
     text-align: center;
     text-transform: uppercase;
   }

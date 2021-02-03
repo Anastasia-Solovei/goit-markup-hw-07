@@ -2,8 +2,8 @@ body {
   background-color: $primary-bcg-color;
   color: $primary-text-color;
   font-family: $main-font-family;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: $primary-text-font-size;
+  line-height: $default-line-height;
   letter-spacing: 0.03em;
 }
 

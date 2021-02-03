@@ -14,12 +14,12 @@
     padding: 60px 0;
   }
 
-  &__header {
+  &__heading {
     margin-top: 0;
     margin-bottom: 50px;
     color: $title-text-color;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: $primary-font-weight;
+    font-size: $section-heading-font-size;
     line-height: 1.17;
     text-align: center;
   }
@@ -28,11 +28,11 @@
     display: flex;
   }
 
-  &__subheader {
+  &__subheading {
     margin-top: 0;
     margin-bottom: 10px;
     color: $title-text-color;
-    font-weight: 700;
+    font-weight: $primary-font-weight;
   }
 
   &__text {

@@ -32,15 +32,12 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: $primary-text-color;
-
   font-style: normal;
-  font-weight: 500;
-  line-height: 1.14;
+  font-weight: $secondary-font-weight;
+  line-height: $primary-line-height;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   transition: color $primary-duration$timing-function;
 
   &:hover,
@@ -52,9 +49,7 @@
     display: inline-block;
     padding-top: 0;
     padding-bottom: 0;
-
     color: rgba(255, 255, 255, 0.6);
-
     font-weight: inherit;
     line-height: 1.71;
     letter-spacing: inherit;
