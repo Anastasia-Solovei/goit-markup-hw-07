@@ -1,24 +1,8 @@
-@import './base/normalize';
-@import './utils/variables';
-@import './base/defaults';
-@import './utils/section';
-@import './utils/container';
-@import './utils/list';
-@import './utils/visually-hidden';
-@import './components/page-header';
-@import './components/logo';
-@import './components/contacts';
-@import './components/hero';
-@import './components/button';
-@import './components/feature';
-@import './components/service';
-@import './components/team';
-@import './components/socials';
-@import './components/clients';
-@import './components/page-footer';
-@import './components/newsletter';
-@import './components/backdrop';
-@import './components/form-modal';
-@import './components/checkbox';
-@import './components/portfolio';
-@import './components/projects';
+// Utils
+@import './utils/main';
+
+// Base
+@import './base/base';
+
+// Components
+@import './components/main';
